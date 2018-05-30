@@ -1,0 +1,14 @@
+img {
+  background: #fff;
+  height: 150px;
+  width: 150px;
+  border-radius: 1000px;
+  box-shadow: 0 3px 6px rgb(134, 196, 187);
+  display: inline-block;
+}
+
+#imgBox, .card {
+  display: inline-block;
+  margin: 2%;
+  border: none;
+}
