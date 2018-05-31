@@ -3,7 +3,7 @@ img {
   height: 150px;
   width: 150px;
   border-radius: 1000px;
-  box-shadow: 0 3px 6px rgb(134, 196, 187);
+  box-shadow: 3px 3px 3px #0f3b3d;
   display: inline-block;
 }
 

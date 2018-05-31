@@ -2,16 +2,19 @@ import React from 'react';
 import './Header.css'
 
 const Header = props =>
-    <div className='jumbotron'>
+    <div id='jumbo' className='jumbotron'>
 
         <div className="row">
-            <div className='col-md-4'>
-                <h2>The Clicky Game</h2>
+            <div className='col-md'>
+                <h1>The Clicky Game</h1>
+                <p>Don't click on the same image twice!</p>
             </div>
-            <div className='col-md-4'>
+        </div>
+        <div className='row'>
+            <div className='col-md'>
                 <p>{props.message} </p>
             </div>
-            <div className='col-md-4'>
+            <div className='col-md'>
                 <p>Score : {props.score}| Top Score :{props.topScore} </p>
             </div>
         </div>
