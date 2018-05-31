@@ -9,6 +9,7 @@ const Card = props => (
                 <div className='img-container'>
                     <img
                         id={props.id}
+                        key={props.id}
                         alt={props.name}
                         src={props.image}
                     />

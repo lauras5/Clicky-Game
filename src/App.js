@@ -92,6 +92,7 @@ class App extends Component {
                             setClicked={this.setClicked}
                             id={char.id}
                             key={char.id}
+                            name={char.name}
                             image={char.image}
                         />
                     ))}
